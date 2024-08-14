@@ -14,7 +14,7 @@ document.addEventListener('contextmenu', function(event) {
 
 // Evento para el clic izquierdo (mousedown
 document.addEventListener('mousedown', function(event) {
-    if (event.button === 0) { // 0 es el código para el clic izquierdo
+    if (event.button === 0) { // 0 es el código para el clic izquierd
         updateCounter();
     }
 });
