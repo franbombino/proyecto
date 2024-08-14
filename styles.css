@@ -1,22 +1,23 @@
 body {
     margin: 0;
     display: flex;
+    flex-direction: column; /* Asegura que los elementos estén apilados verticalmente */
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: black;
     font-family: Arial, sans-serif;
 }
+#titulo {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 #counter {
     color: white;
     font-size: 40rem;
-    text-align: center;
+    text-align: top;
 }
 
-#titulo {
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
-}
