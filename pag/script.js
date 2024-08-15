@@ -19,7 +19,7 @@ function updateCounter() {
 //     }
 // });
 
-// Evento para la barra espaciadora (keydown)
+//Evento para la barra espaciadora (keydown)
 document.addEventListener('keydown', function(event) {
     if (event.code === 'Space') { // Verifica si la tecla presionada es la barra espaciadora
         updateCounter();
